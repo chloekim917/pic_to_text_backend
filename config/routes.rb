@@ -1,11 +1,8 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :folders
-    end
-  end
-  namespace :api do
-    namespace :v1 do
+      resources :notes
+      resources :notebooks
       resources :users
     end
   end

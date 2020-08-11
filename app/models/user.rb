@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-    has_many :folders
+    has_many :notebooks
 end
