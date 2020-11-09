@@ -14,11 +14,8 @@ class Api::V1::UsersController < ApplicationController
             user_email: params[:user_email],
             password: params[:password]
         )
-        #  if user.valid?
-        #     token = encode_token(user.id)
+
             render json: {user: user, token: token}
-        #  else 
-        #     render json: {errors: user.errors.full_messages}
-        #  end
+
     end
 end

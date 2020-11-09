@@ -13,8 +13,7 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   config.hosts << /[a-z0-9]+\ngrok\.io/
-  config.hosts << "a48bb44112da.ngrok.io"
-
+  config.hosts << "54aba409e9cf.ngrok.io"
 
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
@@ -30,7 +29,7 @@ Rails.application.configure do
   end
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
-  config.active_storage.service = :local
+  config.active_storage.service = :cloudinary
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
