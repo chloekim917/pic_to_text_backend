@@ -1,4 +1,5 @@
 class Api::V1::UsersController < ApplicationController
+     #ruby on rails backend as api
     def index
         users=User.all
         render json: users

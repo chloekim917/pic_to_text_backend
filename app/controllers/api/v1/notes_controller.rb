@@ -1,5 +1,5 @@
 class Api::V1::NotesController < ApplicationController
-    
+     #ruby on rails backend as api
     def index
         notes=Note.all
         render json: notes

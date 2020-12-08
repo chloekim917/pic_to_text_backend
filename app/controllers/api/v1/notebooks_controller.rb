@@ -1,4 +1,5 @@
 class Api::V1::NotebooksController < ApplicationController
+    #ruby on rails backend as api
     def index
         notebooks=Notebook.all
         render json: notebooks
