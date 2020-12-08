@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  #rails as api setup
   namespace :api do
     namespace :v1 do
       resources :notes
