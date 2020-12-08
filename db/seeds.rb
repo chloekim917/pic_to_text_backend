@@ -1,4 +1,4 @@
-
+#notebook will be created within app
 User.destroy_all
 Notebook.destroy_all
 
